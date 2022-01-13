@@ -1,0 +1,6 @@
+{
+    "certPath": "./certs/<your-cert>-certificate.pem.crt",
+    "keyPath": "./certs/<your-cert>-private.pem.key",
+    "caPath": "./certs/AmazonRootCA1.pem",
+    "endpoint": "<endpoint>-ats.iot.us-east-1.amazonaws.com"
+}
