@@ -25,7 +25,7 @@ This is a stripped-down example of using the AWS IoT JS V2 SDK to send messages 
 
 1. Create an IoT Thing and allow AWS to generate certificates for it. Download the certificates and place them in this project's `/certs` directory.
 
-1. Create a `config.json` in this project's root by copying `config.json.example` and update it to reference your IoT Thing certificate and key.
+1. Create a `config.json` in this project's root by copying `config.json.example` and update it to reference your IoT Thing certificate and key. Also update your device endpoint- this can be found on the IoT console under 'Settings'.
     ```
     cp ./config.json.example ./config.json
     ```
